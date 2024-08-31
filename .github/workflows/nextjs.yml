@@ -25,8 +25,8 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Pull image from docker hub
-        run: docker pull integrationninjas/nextjs-app:latest
+        run: docker pull inder491/portfolio:latest
       - name: Delete old container
-        run: docker rm -f nextjs-app-container  
+        run: docker rm -f portfolio-container  
       - name: Run docker container
-        run: docker run -d -p 3000:3000 --name nextjs-app-container integrationninjas/nextjs-app 
+        run: docker run -d -p 3000:3000 --name portfolio-container inder491/portfolio
