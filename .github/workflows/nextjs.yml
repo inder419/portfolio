@@ -18,7 +18,7 @@ jobs:
       - name: Login to docker hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Publish image to docker hub
-        run: docker push inder491/portfolio
+        run: docker push inder491/portfolio:latest
 
   deploy:
     needs: build
