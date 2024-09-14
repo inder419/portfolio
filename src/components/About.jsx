@@ -28,11 +28,11 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Inderjeet, a passionate software developer and problem
+          Hello! I&apos;m Inderjeet, a passionate Software Developer and problem
           solver. Currently, I&apos;m the  Team Lead at videostori, and
           I&apos;m pursuing a B.Tech degree in Computer Science and Engineering at
           AKTU University, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
+          graduation year of 2025. I&apos;m a Software Developer with experience
           in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
           such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
           knowledge extends to fundamental data structures and algorithms,
@@ -64,7 +64,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Inderjeet_Sharma_Resume.pdf"
+          href="document/Inderjeet_Software_Developer.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

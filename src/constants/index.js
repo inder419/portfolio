@@ -219,7 +219,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Software Developer",
     company_name: "Tech team member at GDSC MVJCE",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
@@ -262,9 +262,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FigPro",
+    name: "videostori",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "Interactive Video Platform allows users to create, edit, and manage videos enriched with interactive elements that drive viewer engagement. It goes beyond traditional video by adding features like clickable hotspots, lead forms, interactive timelines, quizzes, and call-to-action (CTA) buttons directly within the video player. These features enable users to make their content more dynamic, engaging, and personalized, allowing for real-time viewer interaction and feedback.",
     tags: [
       {
         name: "typescript",
@@ -277,27 +277,19 @@ const projects = [
       {
         name: "tailwindcss",
         color: "pink-text-gradient",
-      },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
+      }
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Inderjeet-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/videostori.png",
+    source_code_link: "#",
+    deployed_link: "https://videostori.io",
   },
   {
-    name: "GDSC Website",
+    name: "Interactive video player",
     description:
-      "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+      " Interactive Video Player is a highly engaging and customizable platform designed to revolutionize viewer interaction with video content. It was developed to integrate interactive elements into standard video playback, allowing users to enhance their video experience in various ways.",
     tags: [
       {
-        name: "next.js",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
@@ -305,21 +297,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "three.js",
+        name: "video js",
         color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "yellow-text-gradient",
-      },
+      }
     ],
-    image: "/assets/projects/gdsc-website.png",
-    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://gdscmvjce.vercel.app/",
+    image: "/assets/projects/player-i.png",
+    source_code_link: "#",
+    deployed_link: "https://videostori.io/p/IVy2QF",
   },
   {
     name: "Facility Management System",
@@ -382,7 +366,7 @@ const heroTexts = [
   500,
   "Full-Stack developer",
   500,
-  "Frontend developer",
+  "Software Developer",
   500,
   "Backend developer",
   500,

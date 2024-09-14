@@ -73,7 +73,7 @@ function Navbar() {
 								Inderjeet &nbsp;
 								<span className="lg:block hidden">
 									{" "}
-									| Frontend Developer
+									| Software Developer
 								</span>
 							</p>
 						</Link>

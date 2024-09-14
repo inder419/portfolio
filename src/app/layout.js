@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
   const description =
     "Hello! I'm Inderjeet, a passionate web developer and problem solver. Welcome to my portfolio";
   const avatar =
-    "https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-  const url = "https://Inderjeet-sharma-myportfolio.vercel.app/";
+    "https://media.licdn.com/dms/image/v2/D5603AQF_BbLmCML_wQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1721790921275?e=1731542400&v=beta&t=MDJZZ4XVpsuuv0M_j0oFui8g48Tu2tkjcxxwZhoGJ_U";
+  const url = "https://inderwithdev.in/";
 
   return (
     <html lang="en">
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
         <meta property="twitter:image" content={avatar} />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@Inderjeet_1_Sharma" />
+        <meta name="twitter:creator" content="@Inderjeet" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
 
