@@ -99,8 +99,7 @@ console.log(experiences,"experiences")
               theme={resolvedTheme || theme} // Use resolvedTheme or theme
             />
           ))}
-        </VerticalTimeline>
-      </div> */}
+        </VerticalTimeline> */}
     </motion.section>
   );
 }

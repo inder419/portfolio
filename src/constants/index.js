@@ -306,12 +306,12 @@ const projects = [
     deployed_link: "https://videostori.io/p/IVy2QF",
   },
   {
-    name: "Facility Management System",
+    name: "Video Editor Tool",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "A powerful, web-based video editor built using React and FFMPEG. This tool enables users to crop, trim, and merge videos, add custom audio tracks, and apply filters such as fade-in, fade-out, and volume control. It also supports exporting videos in multiple formats with a seamless user experience, designed for both beginners and professionals.",
     tags: [
       {
-        name: "typescript",
+        name: "FFMPEG",
         color: "blue-text-gradient",
       },
       {
@@ -326,16 +326,13 @@ const projects = [
         name: "node.js",
         color: "orange-text-gradient",
       },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
+      
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/video-editor.png",
     source_code_link:
-      "https://github.com/Inderjeet-Sharma-1/Facility-Management-System",
+      "https://github.com/inder419/video-editor",
     deployed_link:
-      "https://github.com/Inderjeet-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://editor.inderwithdev.in/",
   },
  
 ];
