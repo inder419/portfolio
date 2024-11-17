@@ -334,6 +334,32 @@ const projects = [
     deployed_link:
       "https://editor.inderwithdev.in/",
   },
+  {
+    name: "Google Ad Rendering SDK",
+    description:
+      " Developed a robust SDK for rendering outstream and instream ads on web pages and video players. The SDK supports seamless integration with existing platforms, ensuring efficient ad placement and playback. Key features include customizable ad formats, support for both desktop and mobile environments, and smooth interaction with Google IMA SDK for enhanced ad delivery. Designed to optimize ad revenue while providing a user-friendly API for developers.",
+    tags: [
+      
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next js",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: "/assets/projects/ima.png",
+    source_code_link:
+      "#",
+    deployed_link:
+      "https://videostori.io/vsplayer/",
+  },
  
 ];
 
